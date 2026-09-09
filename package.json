@@ -1,0 +1,15 @@
+{
+  "name": "weight-of-absence",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5187",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5187",
+    "verify": "node scripts/verify-interaction.mjs",
+    "capture": "node scripts/capture.mjs"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "vite": "7.1.5", "playwright": "1.55.0" }
+}
